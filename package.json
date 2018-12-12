@@ -38,6 +38,6 @@
   },
   "dependencies": {
     "@types/jquery": "^2.0.40",
-    "ion-rangeslider": "^2.1.6"
+    "ion-rangeslider": "2.2.0"
   }
 }
