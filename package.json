@@ -5,7 +5,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "watch": "tsc -p src -w",
+    "watch": "tsc -p ./ -w",
     "ngc-build": "rm -rf lib && rm -f *.tgz && \"node_modules/.bin/ngc\" -p tsconfig.json"
   },
   "repository": {
@@ -29,12 +29,9 @@
     "@angular/common": "^2.4.4",
     "@angular/compiler": "^2.4.4",
     "@angular/compiler-cli": "^2.4.4",
-    "@angular/core": "^2.4.4",
+    "@angular/core": ">=2.4.4",
     "@types/core-js": "^0.9.41",
     "typescript": "2.0.9"
-  },
-  "peerDependencies": {
-    "@angular/core": ">=2.4.4"
   },
   "dependencies": {
     "@types/jquery": "^2.0.40",
