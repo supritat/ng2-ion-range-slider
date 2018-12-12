@@ -5,7 +5,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "watch": "tsc -p ./ -w",
+    "watch": "tsc -p src -w",
     "ngc-build": "rm -rf lib && rm -f *.tgz && \"node_modules/.bin/ngc\" -p tsconfig.json"
   },
   "repository": {
